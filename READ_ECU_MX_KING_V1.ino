@@ -62,7 +62,7 @@ void readMxKingV1(){
 void setup() {
  Serial.begin(9600);
  MxKing.begin(9600);
- init();
+ initMx();
  setBaudrate();
  unlockIDCode();
  readMxKingV1();
